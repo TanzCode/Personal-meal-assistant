@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="botStyle.css" />
+    <script src="bot.js" defer></script>
+    <script src="response.js"defer></script>
+    <title>AI Chatbot - Personal Meal assistant</title>
+</head>
+<body>
+    <div class="background-container">
+        <div class="overlay">
+            <div class="text">
+                <h1> Balance Bite 💗 Health Care</h1>
+                <h4>STAY IN FIT</h4>
+            </div>
+        </div>
+    </div>
+    <div class="chatbot-toggler">
+        <button>
+            <img src = "icons/chatbutton.png" width='50' height="50">
+        </button>
+    </div>
+    
+    <div class="container">
+       
+        
+        <div class="chat-header">
+            <div class="title"> Let's have a Chat </div>
+            <div class="emotions">
+                <img src="emotions/normalSmile.png">
+            </div>
+
+        </div>
+        <div class="chat-contain">
+            <div class="loading hide">
+                <div class="circle circle-1"></div>
+                <div class="circle circle-2"></div>
+                <div class="circle circle-3"></div>
+
+            </div>
+        </div>
+
+
+        
+        <div class="suggestion-container" style="display: none;">
+        <div class="suggestion-container button"></div>
+        </div>
+
+        
+        <div class="chat-input">
+            <div class="message-input">
+                <input type="text" id="msgInput" placeholder="  Type here..." autofocus>
+                
+            </div>
+            <div class="mic-voice">
+            <img src="icons/micon.png" alt="mic" width="25" height="25"/>
+            </div>
+            
+            <div class="refreshCon">
+                <img src="icons/refresh.png" alt="refresh" width="25" height="25"/>
+            </div>
+            <div class="msgSend">
+                <img src="icons/send.png" alt="send" width="25" height="25"/>
+            </div>
+        </div>
+        
+       
+    </div>
+</body>
+</html>
